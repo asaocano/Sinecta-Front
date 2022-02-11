@@ -1,0 +1,44 @@
+#map{
+    height: 500px;
+    width: 70%;
+    
+}
+.container{
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content{
+    padding: 20px;
+    background-color: #8c8b8c;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    padding: 5px 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 60px;
+}
+form button{
+    padding: 10px 15px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: #0ee53d;
+    color: #fff;
+    border: none;
+    border-radius: 60px;
+}
+form button:hover{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    color: #fff;
+}
+li{
+    margin-bottom: 5px;
+}
